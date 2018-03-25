@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+div, nav, footer {
+	background-color: #b2b2b2;
+}
+
+section, aside {
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #e9e9e9;
+	align-self: center;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.small-text {
+	font-size: 20px
+}
+
+.big-text {
+	font-size: 25px;
+}
+
+.content {
+	background-color: #fff;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.wrapper {
+	width: 1140px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+header {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.logo {
+	float: left;
+	height: 80px;
+	width: 250px;
+}
+
+.ad-banner {
+	width: 600px;
+	float: right;
+	height: 80px;
+}
+
+.logo, .ad-banner, nav, section > div, aside > div, footer {
+	display: flex;
+	justify-content: center;
+}
+
+section > div, aside > div {
+	margin-bottom: 20px;
+}
+
+nav {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 60px;
+	width: 100%;
+}
+
+.main-section {
+	width: 550px;
+}
+
+.secondary-section, .sidebar {
+	width: 265px;
+}
+
+.last-posts {
+	flex-direction: column;
+}
+
+.deal-of-the-week {
+	height: 320px;
+}
+
+.partners {
+	height: 360px;
+}
+
+.cat-deals {
+	height: 480px;
+}
+
+.sign-up {
+	height: 420px;
+}
+
+.pet-insurance {
+	height: 760px;
+}
+
+.description {
+	height: 260px;
+}
+
+.last-posts {
+	height: 540px;
+}
+
+.disqussion-posts {
+	height: 360px;
+}
+
+footer {
+	height: 130px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+
